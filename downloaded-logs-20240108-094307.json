@@ -1,0 +1,247 @@
+[
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "qwiklabs-gcp-01-3aa43527307e@qwiklabs-gcp-01-3aa43527307e.iam.gserviceaccount.com",
+        "serviceAccountKeyName": "//iam.googleapis.com/projects/qwiklabs-gcp-01-3aa43527307e/serviceAccounts/qwiklabs-gcp-01-3aa43527307e@qwiklabs-gcp-01-3aa43527307e.iam.gserviceaccount.com/keys/5da0464e0f0de2163450642398b20b88ef7101a0",
+        "principalSubject": "serviceAccount:qwiklabs-gcp-01-3aa43527307e@qwiklabs-gcp-01-3aa43527307e.iam.gserviceaccount.com"
+      },
+      "requestMetadata": {
+        "callerIp": "35.229.119.180",
+        "callerSuppliedUserAgent": "unknown/0.0.0 google-api-ruby-client/0.11.1 Linux/5.15.107+ (gzip),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-01-08T04:08:00.484391Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "compute.googleapis.com",
+      "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+      "authorizationInfo": [
+        {
+          "resource": "projects/qwiklabs-gcp-01-3aa43527307e",
+          "permission": "compute.projects.setCommonInstanceMetadata",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "compute",
+            "name": "projects/qwiklabs-gcp-01-3aa43527307e",
+            "type": "compute.projects"
+          }
+        }
+      ],
+      "resourceName": "projects/qwiklabs-gcp-01-3aa43527307e",
+      "request": {
+        "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+      },
+      "response": {
+        "id": "916821228431789007",
+        "name": "operation-1704686879843-60e6757ed256c-aea5c316-54cff991",
+        "operationType": "compute.projects.setCommonInstanceMetadata",
+        "targetLink": "https://www.googleapis.com/compute/v1/projects/qwiklabs-gcp-01-3aa43527307e",
+        "targetId": "710930935842",
+        "status": "RUNNING",
+        "user": "qwiklabs-gcp-01-3aa43527307e@qwiklabs-gcp-01-3aa43527307e.iam.gserviceaccount.com",
+        "progress": "0",
+        "insertTime": "2024-01-07T20:08:00.212-08:00",
+        "startTime": "2024-01-07T20:08:00.219-08:00",
+        "selfLink": "https://www.googleapis.com/compute/v1/projects/qwiklabs-gcp-01-3aa43527307e/global/operations/operation-1704686879843-60e6757ed256c-aea5c316-54cff991",
+        "selfLinkWithId": "https://www.googleapis.com/compute/v1/projects/qwiklabs-gcp-01-3aa43527307e/global/operations/916821228431789007",
+        "setCommonInstanceMetadataOperationMetadata": {
+          "clientOperationId": "operation-1704686879843-60e6757ed256c-aea5c316-54cff991"
+        },
+        "@type": "type.googleapis.com/operation"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "-a931g0e4gx76",
+    "resource": {
+      "type": "gce_project",
+      "labels": {
+        "project_id": "710930935842"
+      }
+    },
+    "timestamp": "2024-01-08T04:07:59.967372Z",
+    "severity": "NOTICE",
+    "logName": "projects/qwiklabs-gcp-01-3aa43527307e/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operation-1704686879843-60e6757ed256c-aea5c316-54cff991",
+      "producer": "compute.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-01-08T04:08:00.656460429Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "qwiklabs-gcp-01-3aa43527307e@qwiklabs-gcp-01-3aa43527307e.iam.gserviceaccount.com",
+        "serviceAccountKeyName": "//iam.googleapis.com/projects/qwiklabs-gcp-01-3aa43527307e/serviceAccounts/qwiklabs-gcp-01-3aa43527307e@qwiklabs-gcp-01-3aa43527307e.iam.gserviceaccount.com/keys/5da0464e0f0de2163450642398b20b88ef7101a0",
+        "principalSubject": "serviceAccount:qwiklabs-gcp-01-3aa43527307e@qwiklabs-gcp-01-3aa43527307e.iam.gserviceaccount.com"
+      },
+      "requestMetadata": {
+        "callerIp": "35.229.119.180",
+        "callerSuppliedUserAgent": "unknown/0.0.0 google-api-ruby-client/0.11.1 Linux/5.15.107+ (gzip),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-01-08T04:08:01.280118Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "compute.googleapis.com",
+      "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+      "authorizationInfo": [
+        {
+          "resource": "projects/qwiklabs-gcp-01-3aa43527307e",
+          "permission": "compute.projects.setCommonInstanceMetadata",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "compute",
+            "name": "projects/qwiklabs-gcp-01-3aa43527307e",
+            "type": "compute.projects"
+          }
+        }
+      ],
+      "resourceName": "projects/qwiklabs-gcp-01-3aa43527307e",
+      "request": {
+        "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+      },
+      "response": {
+        "id": "6034176724692290510",
+        "name": "operation-1704686880851-60e6757fc86c5-ee0f5a47-9df41e2e",
+        "operationType": "compute.projects.setCommonInstanceMetadata",
+        "targetLink": "https://www.googleapis.com/compute/v1/projects/qwiklabs-gcp-01-3aa43527307e",
+        "targetId": "710930935842",
+        "status": "PENDING",
+        "user": "qwiklabs-gcp-01-3aa43527307e@qwiklabs-gcp-01-3aa43527307e.iam.gserviceaccount.com",
+        "progress": "0",
+        "insertTime": "2024-01-07T20:08:01.135-08:00",
+        "selfLink": "https://www.googleapis.com/compute/v1/projects/qwiklabs-gcp-01-3aa43527307e/global/operations/operation-1704686880851-60e6757fc86c5-ee0f5a47-9df41e2e",
+        "selfLinkWithId": "https://www.googleapis.com/compute/v1/projects/qwiklabs-gcp-01-3aa43527307e/global/operations/6034176724692290510",
+        "setCommonInstanceMetadataOperationMetadata": {
+          "clientOperationId": "operation-1704686880851-60e6757fc86c5-ee0f5a47-9df41e2e"
+        },
+        "@type": "type.googleapis.com/operation"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "-qwv36se34yds",
+    "resource": {
+      "type": "gce_project",
+      "labels": {
+        "project_id": "710930935842"
+      }
+    },
+    "timestamp": "2024-01-08T04:08:00.902768Z",
+    "severity": "NOTICE",
+    "logName": "projects/qwiklabs-gcp-01-3aa43527307e/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operation-1704686880851-60e6757fc86c5-ee0f5a47-9df41e2e",
+      "producer": "compute.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-01-08T04:08:02.084203660Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "qwiklabs-gcp-01-3aa43527307e@qwiklabs-gcp-01-3aa43527307e.iam.gserviceaccount.com",
+        "serviceAccountKeyName": "//iam.googleapis.com/projects/qwiklabs-gcp-01-3aa43527307e/serviceAccounts/qwiklabs-gcp-01-3aa43527307e@qwiklabs-gcp-01-3aa43527307e.iam.gserviceaccount.com/keys/5da0464e0f0de2163450642398b20b88ef7101a0",
+        "principalSubject": "serviceAccount:qwiklabs-gcp-01-3aa43527307e@qwiklabs-gcp-01-3aa43527307e.iam.gserviceaccount.com"
+      },
+      "requestMetadata": {
+        "callerIp": "35.229.119.180",
+        "callerSuppliedUserAgent": "unknown/0.0.0 google-api-ruby-client/0.11.1 Linux/5.15.107+ (gzip),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "compute.googleapis.com",
+      "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+      "resourceName": "projects/qwiklabs-gcp-01-3aa43527307e",
+      "request": {
+        "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+      },
+      "metadata": {
+        "@type": "type.googleapis.com/google.cloud.audit.GceProjectAuditMetadata",
+        "projectMetadataDelta": {
+          "addedMetadataKeys": [
+            "google-compute-default-zone",
+            "google-compute-default-region"
+          ]
+        }
+      }
+    },
+    "insertId": "-iuv851de3h0",
+    "resource": {
+      "type": "gce_project",
+      "labels": {
+        "project_id": "710930935842"
+      }
+    },
+    "timestamp": "2024-01-08T04:08:01.379774Z",
+    "severity": "NOTICE",
+    "logName": "projects/qwiklabs-gcp-01-3aa43527307e/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operation-1704686879843-60e6757ed256c-aea5c316-54cff991",
+      "producer": "compute.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-01-08T04:08:01.785334082Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "qwiklabs-gcp-01-3aa43527307e@qwiklabs-gcp-01-3aa43527307e.iam.gserviceaccount.com",
+        "serviceAccountKeyName": "//iam.googleapis.com/projects/qwiklabs-gcp-01-3aa43527307e/serviceAccounts/qwiklabs-gcp-01-3aa43527307e@qwiklabs-gcp-01-3aa43527307e.iam.gserviceaccount.com/keys/5da0464e0f0de2163450642398b20b88ef7101a0",
+        "principalSubject": "serviceAccount:qwiklabs-gcp-01-3aa43527307e@qwiklabs-gcp-01-3aa43527307e.iam.gserviceaccount.com"
+      },
+      "requestMetadata": {
+        "callerIp": "35.229.119.180",
+        "callerSuppliedUserAgent": "unknown/0.0.0 google-api-ruby-client/0.11.1 Linux/5.15.107+ (gzip),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "compute.googleapis.com",
+      "methodName": "v1.compute.projects.setCommonInstanceMetadata",
+      "resourceName": "projects/qwiklabs-gcp-01-3aa43527307e",
+      "request": {
+        "@type": "type.googleapis.com/compute.projects.setCommonInstanceMetadata"
+      },
+      "metadata": {
+        "projectMetadataDelta": {
+          "addedMetadataKeys": [
+            "ssh-keys",
+            "enable-oslogin"
+          ]
+        },
+        "@type": "type.googleapis.com/google.cloud.audit.GceProjectAuditMetadata"
+      }
+    },
+    "insertId": "-iuv851de3h2",
+    "resource": {
+      "type": "gce_project",
+      "labels": {
+        "project_id": "710930935842"
+      }
+    },
+    "timestamp": "2024-01-08T04:08:02.437759Z",
+    "severity": "NOTICE",
+    "logName": "projects/qwiklabs-gcp-01-3aa43527307e/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operation-1704686880851-60e6757fc86c5-ee0f5a47-9df41e2e",
+      "producer": "compute.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-01-08T04:08:02.784965387Z"
+  }
+]
